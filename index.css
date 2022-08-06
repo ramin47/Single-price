@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: hsl(204, 43%, 93%);
+}
+.container {
+    width: 650px;
+    margin: auto;
+    margin-top: 70px;
+    height: 350px;
+    
+}
+
+.join {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    border-radius: 15px 15px 0 0;
+    height: 200px;
+    
+}
+
+.com {
+     color: hsl(179, 62%, 43%);
+     margin-left: 38px;
+     margin-top: 29px;
+}
+
+.day {
+    margin-top: -5px;
+    margin-left: 38px;
+    color: hsl(71, 73%, 54%);
+    font-size: 18px;
+}
+
+.gain {
+    margin-top: -8px;
+    margin-left: 38px;
+    color: hsl(218, 22%, 67%);
+}
+
+.sides {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.monthly {
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 15px;
+    
+
+    
+}
+
+.sub {
+    margin-left: 38px;
+    color: white;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.price {
+    margin-left: 38px;
+    color: white;
+    font-size: 25px;
+    
+}
+
+.spans {
+    font-size: 14px;
+    color: gray;
+    
+}
+
+.full{
+    margin-left: 38px;
+    color: white;
+    font-size: 14px;
+}
+
+.butt {
+    margin-left: 38px;
+    border: none;
+    border-radius: 8px;
+    width: 194px;
+    height: 40px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+}
+
+.us {
+    background-color: #4ABEBD;
+    border-radius: 0 0 15px 0;
+    height: 235px;
+}
+
+.why {
+    margin-left: 38px;
+    color: white;
+    font-size: 18px;
+    padding-top: 15px;
+    
+}
+
+.tut {
+    margin-left: 38px;
+    color: #b0d4d6;
+    font-size: 15px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 345px;
+    }
+
+    .join {
+        width: 300px;
+        margin: auto;
+    }
+    .sides {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .monthly {
+        width: 300px;
+        margin: auto;
+        border-radius: 0 0 0 0;
+        padding-bottom: 12px;
+    }
+    .us {
+        width: 300px;
+        margin: auto;
+        margin-bottom: 25px;
+        border-radius: 0 0 15px 15px;
+    }
+}
